@@ -1,0 +1,190 @@
+<!DOCTYPE html> <html lang="de"> <head> <meta charset="UTF-8"> <meta name="color-scheme" content="dark"> <meta name="supported-color-schemes" content="dark">
+<style>
+    :root {
+        color-scheme: dark;
+    }
+
+    .force-white,
+    .force-white * {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    [data-ogsc] .force-white,
+    [data-ogsc] .force-white * {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    [data-ogsb] .force-white,
+    [data-ogsb] .force-white * {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    .email-flat-table {
+        border: 0 !important;
+        border-collapse: collapse !important;
+        border-spacing: 0 !important;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+    }
+
+    .email-flat-cell {
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .force-white,
+        .force-white * {
+            color: #ffffff !important;
+            -webkit-text-fill-color: #ffffff !important;
+        }
+    }
+</style>
+
+</head> <body> <table class="email-flat-table" role="presentation" border="0" cellpadding="0" cellspacing="0" width="760" bgcolor="#0b1117" style=" width:760px; max-width:760px; box-sizing:border-box; border:0; border-collapse:collapse; border-spacing:0; font-family:Arial,Helvetica,sans-serif; background:#0b1117; background-color:#0b1117; color:#ffffff; border-radius:12px; overflow:hidden; box-shadow:0 3px 15px rgba(0,0,0,.10) " > <tr bgcolor="#28323A" style="background:#28323A;background-color:#28323A"> <td class="email-flat-cell" colspan="2" border="0" bgcolor="#28323A" style="padding:0;background:#28323A;background-color:#28323A;border:0" > <table class="email-flat-table" role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#28323A" style="width:100%;border:0;border-collapse:collapse;border-spacing:0;background:#28323A;background-color:#28323A" > <tr bgcolor="#28323A" style="background:#28323A;background-color:#28323A"> <td class="email-flat-cell" width="65%" bgcolor="#28323A" style="width:65%;padding:28px 32px;background:#28323A;background-color:#28323A;border:0;color:#ffffff !important" > <div class="force-white" style="font-size:13px;letter-spacing:1.5px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;text-transform:uppercase" > <font color="#ffffff">Rustic Backup</font> </div>
+                        <div
+                            class="force-white"
+                            style="font-size:27px;font-weight:600;margin-top:5px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+                        >
+                            <font color="#ffffff">{{ hostname }}</font>
+                        </div>
+
+                        <div
+                            class="force-white"
+                            style="font-size:13px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;margin-top:6px"
+                        >
+                            <font color="#ffffff">{{ report_date }}</font>
+                        </div>
+                    </td>
+
+                    <td
+                        class="email-flat-cell"
+                        width="35%"
+                        bgcolor="#28323A"
+                        style="width:35%;padding:28px 32px;background:#28323A;background-color:#28323A;border:0;text-align:right;vertical-align:middle;color:#ffffff !important"
+                    >
+                        <div
+                            style="display:inline-block;background:#d64545;background-color:#d64545;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;border-radius:20px;padding:9px 17px;font-size:13px;font-weight:bold"
+                        >
+                            <font color="#ffffff">✕ FAILED</font>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td
+            class="email-flat-cell"
+            colspan="2"
+            border="0"
+            bgcolor="#111923"
+            style="padding:26px 32px 12px;background:#111923;background-color:#111923;color:#ffffff !important"
+        >
+            <table
+                class="email-flat-table"
+                role="presentation"
+                border="0"
+                cellpadding="0"
+                cellspacing="0"
+                width="100%"
+                style="width:100%;border:0;border-collapse:collapse;border-spacing:0"
+            >
+                <tr>
+                    <td
+                        bgcolor="#2a171a"
+                        style="padding:16px 18px;background:#2a171a;background-color:#2a171a;border-top:0;border-right:0;border-bottom:0;border-left:4px solid #d64545;border-radius:4px;width:100%;"
+                    >
+                        <div
+                            style="font-size:15px;font-weight:bold;color:#ff8f8f !important;-webkit-text-fill-color:#ff8f8f !important"
+                        >
+                            <font color="#ff8f8f">Backup failed</font>
+                        </div>
+
+                        <div
+                            class="force-white"
+                            style="font-size:13px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;margin-top:5px"
+                        >
+                            <font color="#ffffff">Rustic reported an error. See the details below.</font>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td
+            class="email-flat-cell"
+            colspan="2"
+            border="0"
+            bgcolor="#111923"
+            style="padding:14px 32px 12px;background:#111923;background-color:#111923;color:#ffffff !important"
+        >
+            <div
+                class="force-white"
+                style="font-size:12px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;font-weight:bold;letter-spacing:1px"
+            >
+                <font color="#ffffff">ERROR</font>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td
+            class="email-flat-cell"
+            colspan="2"
+            border="0"
+            bgcolor="#111923"
+            style="padding:0 32px 28px;background:#111923;background-color:#111923"
+        >
+            <table
+                class="email-flat-table"
+                role="presentation"
+                border="0"
+                cellpadding="0"
+                cellspacing="0"
+                width="100%"
+                style="width:100%;border:0;border-collapse:collapse;border-spacing:0"
+            >
+                <tr>
+                    <td
+                        bgcolor="#0b1117"
+                        style="padding:16px;background:#0b1117;background-color:#0b1117;border:1px solid #33414f;border-radius:6px"
+                    >
+                        <pre
+                            style="margin:0;padding:0;background:#0b1117;background-color:#0b1117;color:#f3f3f3;font-family:Consolas,Menlo,'Courier New',monospace;font-size:12px;line-height:1.5;white-space:pre-wrap;word-wrap:break-word;overflow-wrap:break-word;border:0"
+                        >{{ error_message_html }}</pre>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td
+            class="email-flat-cell"
+            colspan="2"
+            border="0"
+            bgcolor="#28323A"
+            style="background:#28323A;background-color:#28323A;padding:18px 32px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;font-size:11px"
+        >
+            <span class="force-white">
+                <font color="#ffffff">Rustic Backup Report · {{ hostname }}</font>
+            </span>
+
+            <span
+                class="force-white"
+                style="float:right;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+            >
+                <font color="#ffffff">{{ rustic_version }}</font>
+            </span>
+        </td>
+    </tr>
+</table>
+
+</body> </html>

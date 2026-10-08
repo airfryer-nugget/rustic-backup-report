@@ -1,0 +1,37 @@
+[report]
+# Rustic JSONL output:  rustic backup > /path/to/rustic-output.jsonl
+jsonl_file = /path/to/rustic-output.jsonl
+# Rustic error output:  rustic backup 2> /path/to/rustic-error.log
+# Only used for failure reports.
+error_log_file = /path/to/rustic-error.log
+# Templates (dark variants: rustic_report_dark.html / rustic_report_failed_dark.html)
+template-success = ./templates/rustic_report.html
+template-failure = ./templates/rustic_report_failed.html
+# This is where the .html-file with the values of your rustic backup log will be saved
+output = ./output/rustic-report-output.html
+# Log file of the script that creates the report
+log_file = ./log/rustic_report.log
+# hostname displayed in the report, "auto" uses the name of the host on which the script is executed
+hostname = auto
+# rustic-version displayed in the report, "auto" uses the output of "rustic --version"
+rustic_version = auto
+
+[mail]
+sendmail = false
+smtp_server = smtp.example.com
+smtp_port = 587
+# starttls | ssl
+smtp_security = starttls
+smtp_auth = true
+smtp_user = user@example.com
+smtp_password = change-me
+# ... or read the password from a file (takes precedence over smtp_password).
+# Absolute path, or relative to this config file.
+smtp_password_file = ./path/to/password-file
+sender = user@example.com
+# multiple recipients possible (separated by comma)
+recipients = first@example.com, second@example.com
+subject-success = [Success] Rustic Backup Report
+subject-failure = [Failed] Rustic Backup Report
+# Log file of the script that sends the email
+log_file = ./log/send_report_mail.log

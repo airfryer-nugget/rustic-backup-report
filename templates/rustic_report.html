@@ -1,0 +1,414 @@
+<table
+    role="presentation"
+    border="0"
+    cellpadding="0"
+    cellspacing="0"
+    bgcolor="#f4f6f8"
+    style="width:100%;max-width:760px;border:1px solid #d5dbe1;border-collapse:separate;border-spacing:0;font-family:Arial,Helvetica,sans-serif;background:#f4f6f8;background-color:#f4f6f8;color:#263238;border-radius:12px;overflow:hidden;box-shadow:0 3px 15px rgba(0,0,0,.10)"
+>
+
+<tr
+    bgcolor="#172b4d"
+    style="background:#172b4d;background-color:#172b4d"
+>
+
+<td
+    colspan="2"
+    bgcolor="#172b4d"
+    style="padding:0;background:#172b4d;background-color:#172b4d;border:0"
+>
+
+<table
+    role="presentation"
+    border="0"
+    cellpadding="0"
+    cellspacing="0"
+    width="100%"
+    bgcolor="#172b4d"
+    style="width:100%;border:0;border-collapse:collapse;border-spacing:0;background:#172b4d;background-color:#172b4d"
+>
+
+<tr
+    bgcolor="#172b4d"
+    style="background:#172b4d;background-color:#172b4d"
+>
+
+<td
+    width="65%"
+    bgcolor="#172b4d"
+    style="width:65%;padding:28px 32px;background:#172b4d;background-color:#172b4d;border:0;color:white"
+>
+
+<div style="font-size:13px;letter-spacing:1.5px;color:#a9bdd8;text-transform:uppercase">
+Rustic Backup
+</div>
+
+<div style="font-size:27px;font-weight:600;margin-top:5px">
+{{ hostname }}
+</div>
+
+<div style="font-size:13px;color:#b9c9dc;margin-top:6px">
+{{ report_date }}
+</div>
+
+</td>
+
+<td
+    width="35%"
+    bgcolor="#172b4d"
+    style="width:35%;padding:28px 32px;background:#172b4d;background-color:#172b4d;border:0;text-align:right;vertical-align:middle"
+>
+
+<div style="display:inline-block;background:#1f9d55;background-color:#1f9d55;color:white;border-radius:20px;padding:9px 17px;font-size:13px;font-weight:bold">
+✓ SUCCESS
+</div>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    colspan="2"
+    bgcolor="#ffffff"
+    style="padding:26px 32px 12px;background:#ffffff;background-color:#ffffff;border:0"
+>
+
+<div style="font-size:12px;color:#7a8793;font-weight:bold;letter-spacing:1px">
+BACKUP SUMMARY
+</div>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    colspan="2"
+    bgcolor="#ffffff"
+    style="padding:0 24px 24px;background:#ffffff;background-color:#ffffff;border:0"
+>
+
+<table style="width:100%;border-collapse:separate;border-spacing:8px">
+
+<tr>
+
+<td style="width:25%;background:#f6f8fa;border-radius:8px;padding:18px;text-align:center">
+
+<div style="font-size:25px;font-weight:600;color:#172b4d">
+{{ duration }}
+</div>
+
+<div style="font-size:11px;color:#7a8793;margin-top:6px">
+{{ duration_label }}
+</div>
+
+</td>
+
+
+<td style="width:25%;background:#f6f8fa;border-radius:8px;padding:18px;text-align:center">
+
+<div style="font-size:25px;font-weight:600;color:#172b4d">
+{{ data_processed }}
+</div>
+
+<div style="font-size:11px;color:#7a8793;margin-top:6px">
+PROCESSED · {{ data_processed_unit }}
+</div>
+
+</td>
+
+
+<td style="width:25%;background:#f6f8fa;border-radius:8px;padding:18px;text-align:center">
+
+<div style="font-size:25px;font-weight:600;color:#172b4d">
+{{ data_added }}
+</div>
+
+<div style="font-size:11px;color:#7a8793;margin-top:6px">
+ADDED · {{ data_added_unit }}
+</div>
+
+</td>
+
+
+<td style="width:25%;background:#f6f8fa;border-radius:8px;padding:18px;text-align:center">
+
+<div style="font-size:25px;font-weight:600;color:#172b4d">
+{{ files_total }}
+</div>
+
+<div style="font-size:11px;color:#7a8793;margin-top:6px">
+FILES
+</div>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    colspan="2"
+    bgcolor="#ffffff"
+    style="padding:4px 32px 12px;background:#ffffff;background-color:#ffffff;border:0"
+>
+
+<div style="font-size:12px;color:#7a8793;font-weight:bold;letter-spacing:1px">
+FILE STATISTICS
+</div>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    colspan="2"
+    bgcolor="#ffffff"
+    style="padding:0 32px 28px;background:#ffffff;background-color:#ffffff;border:0"
+>
+
+<table
+    role="presentation"
+    border="0"
+    cellpadding="0"
+    cellspacing="0"
+    width="100%"
+    bgcolor="#ffffff"
+    style="width:100%;border:0;border-collapse:collapse;border-spacing:0;font-size:14px;background:#ffffff;background-color:#ffffff"
+>
+
+<tr bgcolor="#f7f8fa" style="background:#f7f8fa;background-color:#f7f8fa">
+
+<th
+    bgcolor="#f7f8fa"
+    style="text-align:left;padding:12px;background:#f7f8fa;background-color:#f7f8fa;border:0;color:#68737d;font-weight:600"
+>
+STATUS
+</th>
+
+<th
+    bgcolor="#f7f8fa"
+    style="text-align:right;padding:12px;background:#f7f8fa;background-color:#f7f8fa;border:0;color:#68737d;font-weight:600"
+>
+FILES
+</th>
+
+<th
+    bgcolor="#f7f8fa"
+    style="text-align:right;padding:12px;background:#f7f8fa;background-color:#f7f8fa;border:0;color:#68737d;font-weight:600"
+>
+SHARE
+</th>
+
+</tr>
+
+
+<tr>
+
+<td
+    bgcolor="#ffffff"
+    style="padding:13px;background:#ffffff;background-color:#ffffff;border-left:0;border-right:0;border-top:0;border-bottom:1px solid #edf0f2"
+>
+
+<span style="color:#1f9d55">●</span>&nbsp; New
+
+</td>
+
+<td
+    bgcolor="#ffffff"
+    style="padding:13px;text-align:right;background:#ffffff;background-color:#ffffff;border-left:0;border-right:0;border-top:0;border-bottom:1px solid #edf0f2;font-weight:600"
+>
+{{ files_new }}
+</td>
+
+<td
+    bgcolor="#ffffff"
+    style="padding:13px;text-align:right;background:#ffffff;background-color:#ffffff;border-left:0;border-right:0;border-top:0;border-bottom:1px solid #edf0f2;color:#7a8793"
+>
+{{ files_new_percent }}
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    bgcolor="#ffffff"
+    style="padding:13px;background:#ffffff;background-color:#ffffff;border-left:0;border-right:0;border-top:0;border-bottom:1px solid #edf0f2"
+>
+
+<span style="color:#f0a202">●</span>&nbsp; Changed
+
+</td>
+
+<td
+    bgcolor="#ffffff"
+    style="padding:13px;text-align:right;background:#ffffff;background-color:#ffffff;border-left:0;border-right:0;border-top:0;border-bottom:1px solid #edf0f2;font-weight:600"
+>
+{{ files_changed }}
+</td>
+
+<td
+    bgcolor="#ffffff"
+    style="padding:13px;text-align:right;background:#ffffff;background-color:#ffffff;border-left:0;border-right:0;border-top:0;border-bottom:1px solid #edf0f2;color:#7a8793"
+>
+{{ files_changed_percent }}
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    bgcolor="#ffffff"
+    style="padding:13px;background:#ffffff;background-color:#ffffff;border-left:0;border-right:0;border-top:0;border-bottom:0"
+>
+
+<span style="color:#9aa5ad">●</span>&nbsp; Unchanged
+
+</td>
+
+<td
+    bgcolor="#ffffff"
+    style="padding:13px;text-align:right;background:#ffffff;background-color:#ffffff;border-left:0;border-right:0;border-top:0;border-bottom:0;font-weight:600"
+>
+{{ files_unmodified }}
+</td>
+
+<td
+    bgcolor="#ffffff"
+    style="padding:13px;text-align:right;background:#ffffff;background-color:#ffffff;border-left:0;border-right:0;border-top:0;border-bottom:0;color:#7a8793"
+>
+{{ files_unmodified_percent }}
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    colspan="2"
+    bgcolor="#f8fafb"
+    style="padding:22px 32px 10px;background:#f8fafb;background-color:#f8fafb;border-left:0;border-right:0;border-bottom:0;border-top:1px solid #edf0f2"
+>
+
+<div style="font-size:12px;color:#7a8793;font-weight:bold;letter-spacing:1px">
+BACKUP DETAILS
+</div>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    colspan="2"
+    bgcolor="#f8fafb"
+    style="padding:0 32px 25px;background:#f8fafb;background-color:#f8fafb;border:0"
+>
+
+<table
+    role="presentation"
+    border="0"
+    cellpadding="0"
+    cellspacing="0"
+    width="100%"
+    bgcolor="#f8fafb"
+    style="width:100%;border:0;border-collapse:collapse;border-spacing:0;font-size:13px;background:#f8fafb;background-color:#f8fafb"
+>
+
+<tr>
+
+<td
+    bgcolor="#f8fafb"
+    style="white-space:nowrap;padding:9px 12px 9px 0;background:#f8fafb;background-color:#f8fafb;border:0;color:#7a8793"
+>
+Snapshot ID
+</td>
+
+<td
+    bgcolor="#f8fafb"
+    style="padding:9px 0;background:#f8fafb;background-color:#f8fafb;border:0;font-size:12px;font-family:monospace;word-wrap:break-word"
+>
+{{ snapshot_id }}
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    bgcolor="#f8fafb"
+    style="white-space:nowrap;padding:9px 12px 9px 0;background:#f8fafb;background-color:#f8fafb;border:0;color:#7a8793"
+>
+Added (compressed size)
+</td>
+
+<td
+    bgcolor="#f8fafb"
+    style="padding:9px 0;background:#f8fafb;background-color:#f8fafb;border:0;font-weight:600"
+>
+{{ data_added_repository }}
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    colspan="2"
+    bgcolor="#172b4d"
+    style="background:#172b4d;background-color:#172b4d;border:0;padding:18px 32px;color:#9fb1c7;font-size:11px"
+>
+
+Rustic Backup Report · {{ hostname }}
+
+<span style="float:right">
+{{ rustic_version }}
+</span>
+
+</td>
+
+</tr>
+
+</table>

@@ -1,0 +1,574 @@
+<meta name="color-scheme" content="dark">
+<meta name="supported-color-schemes" content="dark">
+
+<style>
+:root {
+    color-scheme: dark;
+}
+
+.force-white,
+.force-white * {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+[data-ogsc] .force-white,
+[data-ogsc] .force-white * {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+[data-ogsb] .force-white,
+[data-ogsb] .force-white * {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+.email-flat-table {
+    border: 0 !important;
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+}
+
+.email-flat-cell {
+
+
+}
+
+.email-flat-table td,
+.email-flat-table th {
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+    .force-white,
+    .force-white * {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+}
+</style>
+
+
+<table
+    class="email-flat-table"
+    role="presentation"
+    border="0"
+    cellpadding="0"
+    cellspacing="0"
+    bgcolor="#0b1117"
+    style="width:100%;max-width:760px;border:0;border-collapse:collapse;border-spacing:0;font-family:Arial,Helvetica,sans-serif;background:#0b1117;background-color:#0b1117;color:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 3px 15px rgba(0,0,0,.10)"
+>
+
+<tr
+    bgcolor="#28323A"
+    style="background:#28323A;background-color:#28323A"
+>
+
+<td
+    class="email-flat-cell"
+    colspan="2"
+    border="0"
+    bgcolor="#28323A"
+    style="padding:0;background:#28323A;background-color:#28323A;border:0"
+>
+
+<table
+    class="email-flat-table"
+    role="presentation"
+    border="0"
+    cellpadding="0"
+    cellspacing="0"
+    width="100%"
+    bgcolor="#28323A"
+    style="width:100%;border:0;border-collapse:collapse;border-spacing:0;background:#28323A;background-color:#28323A"
+>
+
+<tr
+    bgcolor="#28323A"
+    style="background:#28323A;background-color:#28323A"
+>
+
+<td
+    class="email-flat-cell"
+    width="65%"
+    bgcolor="#28323A"
+    style="width:65%;padding:28px 32px;background:#28323A;background-color:#28323A;border:0;color:#ffffff !important"
+>
+
+<div
+    class="force-white"
+    style="font-size:13px;letter-spacing:1.5px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;text-transform:uppercase"
+>
+<font color="#ffffff">Rustic Backup</font>
+</div>
+
+<div
+    class="force-white"
+    style="font-size:27px;font-weight:600;margin-top:5px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+<font color="#ffffff">{{ hostname }}</font>
+</div>
+
+<div
+    class="force-white"
+    style="font-size:13px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;margin-top:6px"
+>
+<font color="#ffffff">{{ report_date }}</font>
+</div>
+
+</td>
+
+
+<td
+    class="email-flat-cell"
+    width="35%"
+    bgcolor="#28323A"
+    style="width:35%;padding:28px 32px;background:#28323A;background-color:#28323A;border:0;text-align:right;vertical-align:middle;color:#ffffff !important"
+>
+
+<div
+    style="display:inline-block;background:#22a060;background-color:#22a060;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;border-radius:20px;padding:9px 17px;font-size:13px;font-weight:bold"
+>
+<font color="#ffffff">✓ SUCCESS</font>
+</div>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    class="email-flat-cell"
+    colspan="2"
+    border="0"
+    bgcolor="#111923"
+    style="padding:26px 32px 12px;background:#111923;background-color:#111923;color:#ffffff !important"
+>
+
+<div
+    class="force-white"
+    style="font-size:12px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;font-weight:bold;letter-spacing:1px"
+>
+<font color="#ffffff">BACKUP SUMMARY</font>
+</div>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    class="email-flat-cell"
+    colspan="2"
+    border="0"
+    bgcolor="#111923"
+    style="padding:0 24px 24px;background:#111923;background-color:#111923"
+>
+
+<table
+    style="width:100%;border-collapse:separate;border-spacing:8px"
+>
+
+<tr>
+
+<td
+    width="25%"
+    bgcolor="#1b2632"
+    style="width:25%;background:#1b2632;background-color:#1b2632;border-radius:8px;padding:18px;text-align:center;color:#ffffff"
+>
+
+<div
+    style="font-size:25px;font-weight:600;color:#f3f6f9 !important;-webkit-text-fill-color:#f3f6f9 !important"
+>
+{{ duration }}
+</div>
+
+<div
+    class="force-white"
+    style="font-size:11px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;margin-top:6px"
+>
+<font color="#ffffff">{{ duration_label }}</font>
+</div>
+
+</td>
+
+
+<td
+    width="25%"
+    bgcolor="#1b2632"
+    style="width:25%;background:#1b2632;background-color:#1b2632;border-radius:8px;padding:18px;text-align:center;color:#ffffff"
+>
+
+<div
+    style="font-size:25px;font-weight:600;color:#f3f6f9 !important;-webkit-text-fill-color:#f3f6f9 !important"
+>
+{{ data_processed }}
+</div>
+
+<div
+    class="force-white"
+    style="font-size:11px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;margin-top:6px"
+>
+<font color="#ffffff">PROCESSED · {{ data_processed_unit }}</font>
+</div>
+
+</td>
+
+
+<td
+    width="25%"
+    bgcolor="#1b2632"
+    style="width:25%;background:#1b2632;background-color:#1b2632;border-radius:8px;padding:18px;text-align:center;color:#ffffff"
+>
+
+<div
+    style="font-size:25px;font-weight:600;color:#f3f6f9 !important;-webkit-text-fill-color:#f3f6f9 !important"
+>
+{{ data_added }}
+</div>
+
+<div
+    class="force-white"
+    style="font-size:11px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;margin-top:6px"
+>
+<font color="#ffffff">ADDED · {{ data_added_unit }}</font>
+</div>
+
+</td>
+
+
+<td
+    width="25%"
+    bgcolor="#1b2632"
+    style="width:25%;background:#1b2632;background-color:#1b2632;border-radius:8px;padding:18px;text-align:center;color:#ffffff"
+>
+
+<div
+    style="font-size:25px;font-weight:600;color:#f3f6f9 !important;-webkit-text-fill-color:#f3f6f9 !important"
+>
+{{ files_total }}
+</div>
+
+<div
+    class="force-white"
+    style="font-size:11px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;margin-top:6px"
+>
+<font color="#ffffff">FILES</font>
+</div>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    class="email-flat-cell"
+    colspan="2"
+    border="0"
+    bgcolor="#111923"
+    style="padding:4px 32px 12px;background:#111923;background-color:#111923;color:#ffffff !important"
+>
+
+<div
+    class="force-white"
+    style="font-size:12px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;font-weight:bold;letter-spacing:1px"
+>
+<font color="#ffffff">FILE STATISTICS</font>
+</div>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    class="email-flat-cell"
+    colspan="2"
+    border="0"
+    bgcolor="#111923"
+    style="padding:0 32px 28px;background:#111923;background-color:#111923"
+>
+
+<table
+    class="email-flat-table"
+    role="presentation"
+    border="0"
+    cellpadding="0"
+    cellspacing="0"
+    width="100%"
+    bgcolor="#111923"
+    style="width:100%;border:0;border-collapse:collapse;border-spacing:0;font-size:14px;background:#111923;background-color:#111923"
+>
+
+<tr>
+
+<th
+    class="email-flat-cell"
+    bgcolor="#202c38"
+    style="text-align:left;padding:12px;background:#202c38;background-color:#202c38;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;font-weight:600"
+>
+<font color="#ffffff">STATUS</font>
+</th>
+
+<th
+    class="email-flat-cell"
+    bgcolor="#202c38"
+    style="text-align:right;padding:12px;background:#202c38;background-color:#202c38;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;font-weight:600"
+>
+<font color="#ffffff">FILES</font>
+</th>
+
+<th
+    class="email-flat-cell"
+    bgcolor="#202c38"
+    style="text-align:right;padding:12px;background:#202c38;background-color:#202c38;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;font-weight:600"
+>
+<font color="#ffffff">SHARE</font>
+</th>
+
+</tr>
+
+
+<tr>
+
+<td
+    class="email-flat-cell"
+    bgcolor="#111923"
+    style="padding:13px;background:#111923;background-color:#111923;border-bottom:1px solid #33414f;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+
+<span style="color:#22a060 !important;-webkit-text-fill-color:#22a060 !important">●</span>&nbsp;
+<span class="force-white"><font color="#ffffff">New</font></span>
+
+</td>
+
+<td
+    class="email-flat-cell"
+    bgcolor="#111923"
+    style="padding:13px;text-align:right;background:#111923;background-color:#111923;border-bottom:1px solid #33414f;font-weight:600;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+<span class="force-white"><font color="#ffffff">{{ files_new }}</font></span>
+</td>
+
+<td
+    class="email-flat-cell"
+    bgcolor="#111923"
+    style="padding:13px;text-align:right;background:#111923;background-color:#111923;border-bottom:1px solid #33414f;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+<span class="force-white"><font color="#ffffff">{{ files_new_percent }}</font></span>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    class="email-flat-cell"
+    bgcolor="#111923"
+    style="padding:13px;background:#111923;background-color:#111923;border-bottom:1px solid #33414f;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+
+<span style="color:#f0a202 !important;-webkit-text-fill-color:#f0a202 !important">●</span>&nbsp;
+<span class="force-white"><font color="#ffffff">Changed</font></span>
+
+</td>
+
+<td
+    class="email-flat-cell"
+    bgcolor="#111923"
+    style="padding:13px;text-align:right;background:#111923;background-color:#111923;border-bottom:1px solid #33414f;font-weight:600;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+<span class="force-white"><font color="#ffffff">{{ files_changed }}</font></span>
+</td>
+
+<td
+    class="email-flat-cell"
+    bgcolor="#111923"
+    style="padding:13px;text-align:right;background:#111923;background-color:#111923;border-bottom:1px solid #33414f;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+<span class="force-white"><font color="#ffffff">{{ files_changed_percent }}</font></span>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    class="email-flat-cell"
+    bgcolor="#111923"
+    style="padding:13px;background:#111923;background-color:#111923;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+
+<span style="color:#a0acb8 !important;-webkit-text-fill-color:#a0acb8 !important">●</span>&nbsp;
+<span class="force-white"><font color="#ffffff">Unchanged</font></span>
+
+</td>
+
+<td
+    class="email-flat-cell"
+    bgcolor="#111923"
+    style="padding:13px;text-align:right;background:#111923;background-color:#111923;font-weight:600;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+<span class="force-white"><font color="#ffffff">{{ files_unmodified }}</font></span>
+</td>
+
+<td
+    class="email-flat-cell"
+    bgcolor="#111923"
+    style="padding:13px;text-align:right;background:#111923;background-color:#111923;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+<span class="force-white"><font color="#ffffff">{{ files_unmodified_percent }}</font></span>
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    class="email-flat-cell"
+    colspan="2"
+    border="0"
+    bgcolor="#111923"
+    style="padding:22px 32px 10px;background:#111923;background-color:#111923;border-top:1px solid #33414f;color:#ffffff !important"
+>
+
+<div
+    class="force-white"
+    style="font-size:12px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;font-weight:bold;letter-spacing:1px"
+>
+<font color="#ffffff">BACKUP DETAILS</font>
+</div>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    class="email-flat-cell"
+    colspan="2"
+    border="0"
+    bgcolor="#111923"
+    style="padding:0 32px 25px;background:#111923;background-color:#111923"
+>
+
+<table
+    class="email-flat-table"
+    role="presentation"
+    border="0"
+    cellpadding="0"
+    cellspacing="0"
+    width="100%"
+    bgcolor="#111923"
+    style="width:100%;border:0;border-collapse:collapse;border-spacing:0;font-size:13px;background:#111923;background-color:#111923"
+>
+
+<tr>
+
+<td
+    class="email-flat-cell"
+    bgcolor="#111923"
+    style="white-space:nowrap;padding:9px 12px 9px 0;background:#111923;background-color:#111923;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+<span class="force-white"><font color="#ffffff">Snapshot ID</font></span>
+</td>
+
+<td
+    class="email-flat-cell"
+    bgcolor="#111923"
+    style="padding:9px 0;background:#111923;background-color:#111923;border:0;font-size:12px;font-family:monospace;word-wrap:break-word;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+<span class="force-white"><font color="#ffffff">{{ snapshot_id }}</font></span>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    class="email-flat-cell"
+    bgcolor="#111923"
+    style="white-space:nowrap;padding:9px 12px 9px 0;background:#111923;background-color:#111923;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+<span class="force-white"><font color="#ffffff">Added (compressed size)</font></span>
+</td>
+
+<td
+    class="email-flat-cell"
+    bgcolor="#111923"
+    style="padding:9px 0;background:#111923;background-color:#111923;border:0;font-weight:600;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+<span class="force-white"><font color="#ffffff">{{ data_added_repository }}</font></span>
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<td
+    class="email-flat-cell"
+    colspan="2"
+    border="0"
+    bgcolor="#28323A"
+    style="background:#28323A;background-color:#28323A;padding:18px 32px;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;font-size:11px"
+>
+
+<span class="force-white">
+<font color="#ffffff">Rustic Backup Report · {{ hostname }}</font>
+</span>
+
+<span
+    class="force-white"
+    style="float:right;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important"
+>
+<font color="#ffffff">{{ rustic_version }}</font>
+</span>
+
+</td>
+
+</tr>
+
+</table>
